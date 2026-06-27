@@ -20,16 +20,22 @@ desde el wallpaper usando **Material You** (`matugen`).
 
 ## 📸 Screenshots
 
-> _Agregá tus capturas en una carpeta `assets/` y descomentá las líneas de abajo._
-
-<!--
 <div align="center">
-  <img src="assets/desktop.png" width="800" alt="Desktop"/>
-  <br><br>
-  <img src="assets/terminal.png" width="49%" alt="Terminal"/>
-  <img src="assets/rofi.png" width="49%" alt="Rofi"/>
+
+### 🖥️ Escritorio
+<img src="assets/desktop.png" width="850" alt="Desktop"/>
+
+### 🐱 Terminal — fastfetch · btop · cava
+<img src="assets/terminal.png" width="850" alt="Terminal"/>
+
+<br>
+
+<img src="assets/launcher.png" width="49%" alt="Launcher"/>
+<img src="assets/wallpaper-picker.png" width="49%" alt="Wallpaper picker"/>
+
+_Lanzador de aplicaciones · Selector de wallpaper_
+
 </div>
--->
 
 ---
 
