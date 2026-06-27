@@ -134,7 +134,7 @@ sudo pacman -S --needed \
   swaync blueman network-manager-applet polkit-kde-agent \
   cava wireplumber playerctl \
   hyprshot swappy \
-  fastfetch btop \
+  fastfetch btop breeze-icons \
   ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono
 ```
 
@@ -146,7 +146,8 @@ sudo pacman -S --needed \
 | `polkit-kde-agent` | Agente de autenticación gráfica |
 | `network-manager-applet` / `blueman` | Aplets de red y Bluetooth en la bandeja |
 | `hyprshot` + `swappy` | Captura de región y edición (`SUPER+S`) |
-| `*-nerd` fonts | Iconos de Waybar y Fastfetch |
+| `breeze-icons` | Tema de iconos del launcher de Rofi (`breeze-dark`) |
+| `*-nerd` fonts | Iconos de Waybar, Fastfetch y la fuente de Rofi |
 
 > [!NOTE]
 > **CachyOS**: trae `paru` por defecto en vez de `yay`, pero aquí no necesitas

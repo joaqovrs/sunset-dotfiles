@@ -39,7 +39,8 @@ PKGS=(
   hyprshot swappy
   # Extras
   fastfetch btop
-  # Fuentes con iconos (necesarias para Waybar/Fastfetch)
+  breeze-icons               # tema de iconos del launcher de rofi (breeze-dark)
+  # Fuentes con iconos (necesarias para Waybar/Fastfetch/Rofi)
   ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono
 )
 
