@@ -90,7 +90,7 @@ wallpaper  ──▶  matugen  ──▶  waybar · cava · mako · fastfetch
 ## 📦 Instalación
 
 > [!WARNING]
-> Hacé un backup de tu `~/.config` actual antes de copiar nada.
+> Haz un backup de tu `~/.config` actual antes de copiar nada.
 
 ```bash
 # 1. Clonar el repo
