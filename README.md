@@ -7,7 +7,6 @@
 Un setup minimalista y dinámico, con temas generados automáticamente
 desde el wallpaper usando **Material You** (`matugen`).
 
-</div>
 <br>
 
 ![Hyprland](https://img.shields.io/badge/Hyprland-00AAFF?style=for-the-badge&logo=hyprland&logoColor=white)
