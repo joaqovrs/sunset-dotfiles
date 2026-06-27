@@ -94,8 +94,8 @@ wallpaper  ──▶  matugen  ──▶  waybar · cava · mako · fastfetch
 
 ```bash
 # 1. Clonar el repo
-git clone https://github.com/joaqovrs/my-hyprland-dotfiles.git
-cd my-hyprland-dotfiles
+git clone https://github.com/joaqovrs/sunset-dotfiles.git
+cd sunset-dotfiles
 
 # 2. (Opcional) Backup de tu config actual
 cp -a ~/.config ~/.config.bak
