@@ -1,0 +1,18 @@
+[config]
+reload_apps = true
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/waybar-colors.css"
+output_path = "~/.config/waybar/tokens/colors.css"
+
+[templates.fastfetch]
+input_path = "~/.config/matugen/templates/fastfetch-colors.jsonc"
+output_path = "~/.config/fastfetch/config.jsonc"
+
+[templates.cava]
+input_path = "~/.config/matugen/templates/cava-colors"
+output_path = "~/.config/cava/config"
+
+[templates.mako]
+input_path = "~/.config/matugen/templates/mako.conf"
+output_path = "~/.config/mako/config"

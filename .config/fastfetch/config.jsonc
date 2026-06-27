@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/doc/json_schema.json",
+  "logo": {
+    "position": "top",
+    "type": "file",
+    "source": "/home/joaqodev/.config/fastfetch/logo.txt",
+    "color": {
+      "1": "#fdb0d4"
+    },
+    "padding": {
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "#e0bdcb",
+      "title": "#fdb0d4"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "#fdb0d4",
+        "at": "#eedfe3",
+        "host": "#fdb0d4"
+      }
+    },
+    "separator",
+    { "type": "os",       "key": "󰣇 OS",       "color": "#f2bb99" },
+    { "type": "kernel",   "key": " Kernel",   "color": "#f2bb99" },
+    { "type": "wm",       "key": " WM",       "color": "#f2bb99" },
+    { "type": "shell",    "key": " Shell",    "color": "#f2bb99" },
+    { "type": "terminal", "key": " Terminal", "color": "#f2bb99" },
+    { "type": "cpu",      "key": " CPU",      "color": "#f2bb99" },
+    { "type": "gpu",      "key": "󰢮 GPU",      "color": "#f2bb99" },
+    { "type": "memory",   "key": "󰍛 Memory",   "color": "#f2bb99" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/doc/json_schema.json",
+  "logo": {
+    "position": "top",
+    "type": "file",
+    "source": "/home/joaqodev/.config/fastfetch/logo.txt",
+    "color": {
+      "1": "{{ colors.primary.default.hex }}"
+    },
+    "padding": {
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "{{ colors.secondary.default.hex }}",
+      "title": "{{ colors.primary.default.hex }}"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "{{ colors.primary.default.hex }}",
+        "at": "{{ colors.on_surface.default.hex }}",
+        "host": "{{ colors.primary.default.hex }}"
+      }
+    },
+    "separator",
+    { "type": "os",       "key": "󰣇 OS",       "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "kernel",   "key": " Kernel",   "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "wm",       "key": " WM",       "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "shell",    "key": " Shell",    "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "terminal", "key": " Terminal", "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "cpu",      "key": " CPU",      "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "gpu",      "key": "󰢮 GPU",      "color": "{{ colors.tertiary.default.hex }}" },
+    { "type": "memory",   "key": "󰍛 Memory",   "color": "{{ colors.tertiary.default.hex }}" }
+  ]
+}

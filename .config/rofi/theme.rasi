@@ -1,0 +1,85 @@
+* {
+    bg:          #10111aee;
+    bg-sel:      #1e2035cc;
+    fg:          #e0e0f0;
+    fg-dim:      #7a7a9a;
+    accent:      #6e7ef0;
+    border-col:  #2a2b45;
+
+    background-color: transparent;
+    text-color:       @fg;
+    font:             "JetBrainsMono Nerd Font 11";
+}
+
+window {
+    background-color: @bg;
+    border:           1px;
+    border-color:     @border-col;
+    border-radius:    10px;
+    width:            500px;
+    padding:          8px;
+}
+
+mainbox {
+    background-color: transparent;
+    children:         [ inputbar, listview ];
+    spacing:          6px;
+}
+
+inputbar {
+    background-color: #1a1b2e99;
+    border-radius:    8px;
+    padding:          8px 12px;
+    spacing:          8px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @fg-dim;
+    padding:          2px 0;
+}
+
+entry {
+    background-color: transparent;
+    text-color:       @fg;
+    placeholder:      "";
+    placeholder-color: @fg-dim;
+    cursor:           text;
+}
+
+listview {
+    background-color: transparent;
+    lines:            8;
+    columns:          1;
+    spacing:          2px;
+    scrollbar:        false;
+    cycle:            true;
+    dynamic:          true;
+    layout:           vertical;
+}
+
+element {
+    background-color: transparent;
+    border-radius:    6px;
+    padding:          6px 10px;
+    spacing:          10px;
+    orientation:      horizontal;
+    children:         [ element-icon, element-text ];
+}
+
+element selected.normal {
+    background-color: @bg-sel;
+}
+
+element-icon {
+    background-color: transparent;
+    size:             22px;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+    highlight:        none;
+    vertical-align:   0.5;
+}
